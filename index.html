@@ -824,6 +824,14 @@ function showContent() {
           <article id="embedded__canvas">
             <header><h2>Canvas</h2></header>
             <div><canvas>canvas</canvas></div>
+            
+            <canvas height='32' width='48' id='example_x'>Обновите браузер</canvas>
+		        <script>
+			      var example_x = document.getElementById("example"),
+			      ctx     = example.getContext('2d');
+			      ctx.fillRect(0, 0, example.width, example.height);
+		        </script>
+            
             <footer><p><a href="#top">[Top]</a></p></footer>
           </article>
           <article id="embedded__meter">
